@@ -88,7 +88,16 @@ body, html {
     margin-bottom: 1rem;
 }
 
+.line {
+    height: 1px;
+    background-color: #bbb5b5e3;
+    margin: 2rem 0;
+}
 
+.line-1 {
+    height: 10px;
+    margin: 1rem 0;
+}
 
 .block_footer{
     height: 35em;
@@ -134,16 +143,6 @@ body, html {
     transform: translateX(-25%); 
 }
 
-.line {
-    height: 1px;
-    background-color: #ffffff56;
-    margin: 2rem 0;
-}
-
-.line-1 {
-    height: 10px;
-    margin: 1rem 0;
-}
 
 @media (max-width: 768px) {
     .title {
